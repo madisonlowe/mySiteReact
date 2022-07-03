@@ -28,9 +28,13 @@ a {
 
 /* Code for home.js. */
 .home-title {
-  font-size: 70px;
+  font-size: 5em;
   text-indent: 20%;
   padding: 10% 0%;
+}
+
+.descriptor:hover {
+  cursor: pointer;
 }
 
 /* Code for about.js. */

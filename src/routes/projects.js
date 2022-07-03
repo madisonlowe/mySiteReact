@@ -1,5 +1,5 @@
 import ProjectCardMap from "../Components/ProjectCardMap/index.js";
-import projects from "../data";
+import { projects } from "../data";
 
 export default function Projects() {
   return (

@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <main>
+    <main style={{ overflow: "hidden" }}>
       <h1>About.</h1>
       <section className="about-desc">
         <h2>

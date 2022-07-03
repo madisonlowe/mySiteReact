@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+
+/* font-family: 'IBM Plex Sans', sans-serif; */
+/* font-family: 'Spectral', serif; */
+
+:root {
+  --main-light: #fcfbf3;
+  --main-dark: #27263b;
+  --accent-one: #288e84;
+  --accent-two: #e1aa41;
+  --accent-three: #a43049;
+}
+
+.App {
+  text-align: none;
+  padding: 5%;
+}
+
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 2rem;
+  margin: auto;
+  /* font-family: "Spectral", serif; */
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: var(--main-dark);
+}

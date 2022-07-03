@@ -3,9 +3,9 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./index.css";
 import App from "./Components/App/App.js";
-import About from "./routes/about/about.js";
-import Home from "./routes/home/home.js";
-import Projects from "./routes/projects/projects.js";
+import About from "./routes/about.js";
+import Home from "./routes/home.js";
+import Projects from "./routes/projects.js";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

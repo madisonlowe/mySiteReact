@@ -1,0 +1,17 @@
+.card-div {
+  border: 1px solid var(--main-dark);
+  background: #fff;
+  height: 400px;
+  display: grid;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-desc {
+  color: var(--main-dark);
+  overflow: scroll;
+  margin: 0;
+  padding: 5%;
+}

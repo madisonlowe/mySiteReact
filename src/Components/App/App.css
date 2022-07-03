@@ -1,20 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,700;1,400&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400&display=swap");
-
-/* font-family: 'IBM Plex Sans', sans-serif; */
-/* font-family: 'Spectral', serif; */
-
-:root {
-  --main-light: #fcfbf3;
-  --main-dark: #27263b;
-  --accent-one: #288e84;
-  --accent-two: #e1aa41;
-  --accent-three: #a43049;
+/* Whole-app code. */
+a {
+  color: var(--main-dark);
+  font-weight: bold;
 }
 
 .App {
   text-align: none;
   padding: 5%;
+  color: var(--main-dark);
+  min-height: 100%;
 }
 
 .navigation {
@@ -31,3 +25,18 @@
   text-decoration: none;
   color: var(--main-dark);
 }
+
+/* Code for home.js. */
+.home-title {
+  font-size: 70px;
+  text-indent: 20%;
+  padding: 10% 0%;
+}
+
+/* Code for about.js. */
+.about-desc {
+  width: 730px;
+  line-height: 200%;
+}
+
+/* Code for projects.js. */

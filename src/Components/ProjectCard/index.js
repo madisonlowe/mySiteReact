@@ -1,14 +1,15 @@
-function ProjectCard({ title, desc }) {
+import "./ProjectCard.css";
+
+function ProjectCard({ title, desc, src, github }) {
   return (
-    <div
-      style={{
-        width: 300,
-        height: 300,
-        background: "aquamarine",
-      }}
-    >
-      <p>{title}</p>
-      <p>{desc}</p>
+    <div className="card-div">
+      <img src={src} alt="" className="card-img" />
+      <div className="card-desc">
+        <p>
+          <b>{title}</b> / <a href={github}>Code</a>
+        </p>
+        <p>{desc}</p>
+      </div>
     </div>
   );
 }

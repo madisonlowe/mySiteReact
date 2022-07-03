@@ -1,21 +1,16 @@
 import ProjectCard from "../ProjectCard";
+import "./ProjectCardMap.css";
 
 function ProjectCardMap({ projects }) {
   return (
-    <div
-      style={{
-        width: "100%",
-        display: "grid",
-        gridTemplateColumns: "repeat(4, 1fr)",
-        gridColumnGap: 10,
-        gridRowGap: 20,
-      }}
-    >
+    <div className="pcm-div">
       {projects.map((project) => (
         <ProjectCard
           id={project.id}
           title={project.title}
           desc={project.desc}
+          src={project.src}
+          github={project.github}
         />
       ))}
     </div>

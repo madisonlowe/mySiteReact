@@ -1,7 +1,7 @@
-import { descriptors } from "../data";
+import { descriptors } from "../../data";
 import { useState } from "react";
 
-export default function Home() {
+export default function Title() {
   const [descriptor, setDescriptor] = useState("software developer");
   const [index, setIndex] = useState(1);
 

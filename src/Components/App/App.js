@@ -1,11 +1,12 @@
 import { Link, Outlet } from "react-router-dom";
 import "./App.css";
+import Title from "../Title";
 
 function App() {
   return (
     <main className="App">
       <nav className="navigation">
-        <Link to="/home" className="nav-item">
+        <Link to="/" className="nav-item">
           Home
         </Link>
         <Link to="/about" className="nav-item">
@@ -16,6 +17,7 @@ function App() {
         </Link>
       </nav>
       <Outlet />
+      <Title />
     </main>
   );
 }

@@ -9,7 +9,7 @@ function App() {
   return (
     <main className="App">
       <Routes>
-        <Route path="/" element={<Navigation />} className="navigation">
+        <Route path="/" element={<Navigation />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="projects" element={<Projects />} />

@@ -1,23 +1,20 @@
-import { Link, Outlet } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import Title from "../Title";
+import About from "../../routes/about.js";
+import Home from "../../routes/home.js";
+import Navigation from "../../routes/navigation.js";
+import Projects from "../../routes/projects.js";
 
 function App() {
   return (
     <main className="App">
-      <nav className="navigation">
-        <Link to="/" className="nav-item">
-          Home
-        </Link>
-        <Link to="/about" className="nav-item">
-          About
-        </Link>
-        <Link to="/projects" className="nav-item">
-          Projects
-        </Link>
-      </nav>
-      <Outlet />
-      <Title />
+      <Routes>
+        <Route path="/" element={<Navigation />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="projects" element={<Projects />} />
+        </Route>
+      </Routes>
     </main>
   );
 }

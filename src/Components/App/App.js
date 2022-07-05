@@ -20,3 +20,8 @@ function App() {
 }
 
 export default App;
+
+/* 
+Remove default scrollbar, it's very ugly on Windows.
+Edit navbar formatting or routing structure.
+*/

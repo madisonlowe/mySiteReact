@@ -36,13 +36,16 @@ a {
 }
 
 /* Code for about.js. */
-.about-container {
-  width: 90vw;
+.about-main {
+  width: 100%;
+  line-height: 200%;
+  grid-area: text;
 }
 
-.about-desc {
-  width: 730px;
-  line-height: 200%;
+.about-div {
+  display: grid;
+  grid-template-areas: "text text whitespace";
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* Code for projects.js. */

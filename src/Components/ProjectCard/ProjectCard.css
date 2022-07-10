@@ -3,6 +3,7 @@
   background: #fff;
   height: 400px;
   display: grid;
+  grid-template-rows: 1fr 1fr;
 }
 
 .card-img {

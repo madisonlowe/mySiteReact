@@ -2,11 +2,6 @@
 a {
   color: var(--main-dark);
   font-weight: bold;
-  background-image: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0) 50%,
-    var(--accent-one) 50%
-  );
   background-position: -0% 0;
   background-size: 200% auto;
   transition: background-position 0.5s ease-out;
@@ -14,6 +9,38 @@ a {
 
 a:hover {
   background-position: -99.99% 0;
+}
+
+.first-hov {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 50%,
+    var(--accent-one) 50%
+  );
+}
+
+.second-hov {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 50%,
+    var(--accent-two) 50%
+  );
+}
+
+.third-hov {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 50%,
+    var(--accent-three) 50%
+  );
+}
+
+.fourth-hov {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0) 50%,
+    var(--accent-four) 50%
+  );
 }
 
 .App {
@@ -52,6 +79,7 @@ a:hover {
   background-position: -0% 0;
   background-size: 200% auto;
   transition: background-position 0.5s ease-out;
+  text-decoration: underline;
 }
 
 .descriptor:hover {

@@ -18,11 +18,17 @@ export default function About() {
           </p>
           <p>
             I got started by completing the SheCodes Basics{" "}
-            <a href="https://www.shecodes.io/certificates/3406255c971ef3077b043a898fd80aed">
+            <a
+              href="https://www.shecodes.io/certificates/3406255c971ef3077b043a898fd80aed"
+              className="first-hov"
+            >
               Introduction to Coding
             </a>{" "}
             and freeCodeCamp’s{" "}
-            <a href="https://www.freecodecamp.org/certification/saelida/responsive-web-design">
+            <a
+              href="https://www.freecodecamp.org/certification/saelida/responsive-web-design"
+              className="second-hov"
+            >
               Responsive Web Design
             </a>{" "}
             certifications in Spring 2022. This led me to the School of Code,
@@ -32,13 +38,26 @@ export default function About() {
           </p>
           <p>
             You can find me on{" "}
-            <a href="https://www.linkedin.com/in/madisonclowe/">LinkedIn</a> and
-            on <a href="https://twitter.com/dotmdsn">Twitter</a>. If you're more
-            of a traditionalist, though, feel free to{" "}
-            <a href="mailto:dotmdsn@live.com">send me an email</a>{" "}
+            <a
+              href="https://www.linkedin.com/in/madisonclowe/"
+              className="third-hov"
+            >
+              LinkedIn
+            </a>{" "}
+            and on{" "}
+            <a href="https://twitter.com/dotmdsn" className="first-hov">
+              Twitter
+            </a>
+            . If you're more of a traditionalist, though, feel free to{" "}
+            <a href="mailto:dotmdsn@live.com" className="second-hov">
+              send me an email
+            </a>{" "}
             <em>(opens in a new tab).</em> You can see some of my work under the
-            'Projects' tab, as well as on{" "}
-            <a href="https://github.com/madisonlowe">GitHub</a>.{" "}
+            Projects tab, as well as on{" "}
+            <a href="https://github.com/madisonlowe" className="third-hov">
+              GitHub
+            </a>
+            .{" "}
           </p>
         </section>
       </main>

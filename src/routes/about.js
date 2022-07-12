@@ -17,11 +17,18 @@ export default function About() {
             programming would allow me to do just that.
           </p>
           <p>
-            I got started by completing the SheCodes Basics Introduction to
-            Coding and freeCodeCamp’s Responsive Web Design certifications in
-            Spring 2022. This led me to the School of Code, where I was selected
-            as one of 150 bootcampers – out of nearly 3000 applicants – to train
-            full-time from April through August in software development.
+            I got started by completing the SheCodes Basics{" "}
+            <a href="https://www.shecodes.io/certificates/3406255c971ef3077b043a898fd80aed">
+              Introduction to Coding
+            </a>{" "}
+            and freeCodeCamp’s{" "}
+            <a href="https://www.freecodecamp.org/certification/saelida/responsive-web-design">
+              Responsive Web Design
+            </a>{" "}
+            certifications in Spring 2022. This led me to the School of Code,
+            where I was selected as one of 150 bootcampers – out of nearly 3000
+            applicants – to train full-time from April through August in
+            software development.
           </p>
           <p>
             You can find me on{" "}

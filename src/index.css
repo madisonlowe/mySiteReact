@@ -7,9 +7,10 @@
 :root {
   --main-light: #fcfbf3;
   --main-dark: #27263b;
-  --accent-one: #288e84;
+  --accent-one: #3d9f94;
   --accent-two: #e1aa41;
-  --accent-three: #a43049;
+  --accent-three: #e2687b;
+  --accent-four: #7787eb;
 }
 
 body {

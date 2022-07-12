@@ -1,7 +1,8 @@
 .card-div {
   border: 1px solid var(--main-dark);
   background: #fff;
-  width: 300px;
+  min-width: 300px;
+  max-width: 400px;
   display: grid;
   flex-grow: 1;
   flex-basis: auto;

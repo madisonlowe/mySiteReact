@@ -65,7 +65,7 @@ a:hover {
 
 /* Code for home.js. */
 .home-title {
-  font-size: 5em;
+  font-size: 5rem;
   text-indent: 20%;
   padding: 10% 0%;
 }
@@ -101,3 +101,26 @@ a:hover {
 }
 
 /* Code for projects.js. */
+
+/* Code for media queries. */
+
+@media screen and (max-width: 800px) {
+  .about-div {
+    grid-template-areas: "text text text";
+  }
+  .home-title {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .about-div {
+    grid-template-areas: "text text text";
+  }
+  .home-title {
+    font-size: 3rem;
+  }
+  .nav-item {
+    font-size: 1rem;
+  }
+}

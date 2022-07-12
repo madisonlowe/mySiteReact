@@ -6,7 +6,10 @@ function ProjectCard({ title, desc, src, github }) {
       <img src={src} alt={title} className="card-img" />
       <div className="card-desc">
         <p>
-          <b>{title}</b> / <a href={github}>Code</a>
+          <b>{title}</b> /{" "}
+          <a href={github} className="fourth-hov">
+            Code
+          </a>
         </p>
         <p>{desc}</p>
       </div>

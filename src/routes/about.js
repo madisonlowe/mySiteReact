@@ -45,16 +45,16 @@ export default function About() {
               LinkedIn
             </a>{" "}
             and on{" "}
-            <a href="https://twitter.com/dotmdsn" className="first-hov">
+            <a href="https://twitter.com/dotmdsn" className="fourth-hov">
               Twitter
             </a>
             . If you're more of a traditionalist, though, feel free to{" "}
-            <a href="mailto:dotmdsn@live.com" className="second-hov">
+            <a href="mailto:dotmdsn@live.com" className="first-hov">
               send me an email
             </a>{" "}
             <em>(opens in a new tab).</em> You can see some of my work under the
             Projects tab, as well as on{" "}
-            <a href="https://github.com/madisonlowe" className="third-hov">
+            <a href="https://github.com/madisonlowe" className="second-hov">
               GitHub
             </a>
             .{" "}

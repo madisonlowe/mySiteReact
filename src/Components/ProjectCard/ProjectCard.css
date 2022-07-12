@@ -7,14 +7,14 @@
 }
 
 .card-img {
-  width: 100%;
+  max-width: 100%;
 }
 
 .card-desc {
   color: var(--main-dark);
   overflow: scroll;
   margin: 0;
-  padding: 5%;
+  padding: 0% 5%;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }

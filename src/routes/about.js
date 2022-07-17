@@ -26,6 +26,8 @@ export default function About() {
             </a>{" "}
             and freeCodeCamp’s{" "}
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://www.freecodecamp.org/certification/saelida/responsive-web-design"
               className="second-hov"
             >
@@ -39,13 +41,20 @@ export default function About() {
           <p>
             You can find me on{" "}
             <a
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://www.linkedin.com/in/madisonclowe/"
               className="third-hov"
             >
               LinkedIn
             </a>{" "}
             and on{" "}
-            <a href="https://twitter.com/dotmdsn" className="fourth-hov">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://twitter.com/dotmdsn"
+              className="fourth-hov"
+            >
               Twitter
             </a>
             . If you're more of a traditionalist, though, feel free to{" "}
@@ -54,7 +63,12 @@ export default function About() {
             </a>{" "}
             <em>(opens in a new tab).</em> You can see some of my work under the
             Projects tab, as well as on{" "}
-            <a href="https://github.com/madisonlowe" className="second-hov">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/madisonlowe"
+              className="second-hov"
+            >
               GitHub
             </a>
             .{" "}

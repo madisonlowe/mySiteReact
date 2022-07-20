@@ -1,6 +1,5 @@
 .card-div {
   border: 1px solid var(--main-dark);
-  background: #fff;
   min-width: 300px;
   max-width: 400px;
   display: grid;
@@ -14,7 +13,6 @@
 }
 
 .card-desc {
-  color: var(--main-dark);
   overflow: scroll;
   margin: 0;
   padding: 0% 5%;

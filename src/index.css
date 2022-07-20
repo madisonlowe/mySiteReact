@@ -1,11 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,700;1,400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400&display=swap");
 
-/* font-family: 'IBM Plex Sans', sans-serif; */
-/* font-family: 'Spectral', serif; */
-
 :root {
-  --main-light: #fcfbf3;
+  --main-light: #f7f7ff;
   --main-dark: #27263b;
   --accent-one: #3d9f94;
   --accent-two: #e1aa41;
@@ -15,14 +12,19 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  font-family: "Segoe UI", -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: var(--main-dark);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+html {
+  background: var(--main-light);
 }

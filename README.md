@@ -4,15 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This is a repo tracking the rebuild process for my personal website. Originally build using vanilla HTML, CSS and JavaScript in [this repo here](https://github.com/madisonlowe/mySiteVanilla), I decided to rebuild the site in React - with some changes along the way - so that I could get some more practice in with React.
 
-The site is still currently a work-in-progress.
+Ultimately, as I got more practice with React through this project and started using React Router to handle routing, I found that I was displeased with the speed of the site, and the steps necessary to handle changing between URLs. As such, I decided to once again rebuild my personal site in Next.js. As of the time of writing (20th August 2022), the Next.js reiteration of this site is the one that's [live and deployed](https://madisonlowe.github.io) on GitHub as my personal site!
 
-## Useful Bits from Create-React-App README
-
-### Available Scripts
+## Available Scripts
 
 In the project directory, you can run:
 
-`npm start`
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -20,12 +18,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-`npm test`
+### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-`npm run build`
+### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
